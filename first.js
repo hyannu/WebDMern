@@ -1,11 +1,11 @@
-//conditional statements
-let age=45;
-if(age>=18){
-    console.log("You can voat");
+// //conditional statements
+// let age=45;
+// if(age>=18){
+//     console.log("You can voat");
 
-}else{
-    console.log("You cantnot voat");
-}
+// }else{
+//     console.log("You cantnot voat");
+// }
 
 
 
@@ -28,10 +28,10 @@ if(age>=18){
 // let result=age>= 18 ? console.log ( "adult" ): console.log ("not adult");
 
 
-// alert("hello alert ho jao !");
+alert("hello alert ho jao !");
 
-// let name=prompt("hello deepak");
-// console.log(name);
+let name=prompt("hello deepak");
+console.log(name);
 
 
 
