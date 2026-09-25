@@ -28,11 +28,11 @@
 // let result=age>= 18 ? console.log ( "adult" ): console.log ("not adult");
 
 //alert stetment
-alert("hello alert ho jao !");
+// alert("hello alert ho jao !");
 
-// input option
-let name=prompt("hello deepak");
-console.log(name);
+// // input option
+// let name=prompt("hello deepak");
+// console.log(name);
 
 
 
