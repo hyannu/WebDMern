@@ -49,7 +49,7 @@ if(num % 5===0){
 
 
 //prectice question [2.]..............
-/*let marks=99;
+let marks=99;
 if(marks>=90 && marks <=100){
     console.log("A");
 }else if(marks >=70 && marks <=89){
@@ -61,4 +61,4 @@ if(marks>=90 && marks <=100){
 }else{
     console.log("fail");
 }
-    */
+    
