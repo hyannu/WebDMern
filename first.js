@@ -62,5 +62,5 @@ if(num % 5===0){
 //     console.log("fail");
 // }
     
-string practice
+// string practice
 
