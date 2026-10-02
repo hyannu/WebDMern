@@ -28,8 +28,18 @@
 // console.log("loop has ended");
 
 
+//while loop
+// let i=1;
+// while(i<=10){
+//     console.log("Apna Name");
+//     i++;
+// }
+
+
+// do while loops
+
 let i=1;
-while(i<=10){
-    console.log("Apna Name");
+do{
+    console.log("i=", i);
     i++;
-}
+} while(i<=5);
