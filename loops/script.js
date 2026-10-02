@@ -38,8 +38,32 @@
 
 // do while loops
 
-let i=1;
-do{
-    console.log("i=", i);
-    i++;
-} while(i<=5);
+// let i=1;
+// do{
+//     console.log("i=", i);
+//     i++;
+// } while(i<=5);
+
+
+//for of loop
+  
+// let arr = [1,2,3,4,5];
+// for(let i of arr){
+//     console.log(i);
+
+
+//for in loop
+// let student= {
+//     name: "deepak",
+//     age: 22,
+//     city: "delhi",
+//     cgpa: 7.5,
+//     isPassed: true,
+// };
+// for(let key in student){
+//     console.log("key=", key, " , value :", student[key]);
+// }
+
+
+
+
