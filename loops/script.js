@@ -19,7 +19,7 @@
 // console.log("loop has ended");
 
 
-
+//for loops 
 // let n = 10;
 // let j = 19;
 // for(let i=1; i<=n;i++){
@@ -67,3 +67,26 @@
 
 
 
+
+// let sum = 0;
+// for(let num=0; num<=100; num++){
+//     if(num%2===0){
+//      sum = sum + num;
+//         console.log("num = ", sum);
+//         console.log(sum);
+//     }
+    
+// }
+
+
+
+//for-of loop
+let str="Archu deep rao";
+
+let size=0;
+for(let i of str){
+    console.log("i= ", i);
+    size++;
+}
+console.log("size= ", size);//14
+  
