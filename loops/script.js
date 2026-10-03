@@ -80,13 +80,26 @@
 
 
 
-//for-of loop
-let str="Archu deep rao";
+//for-of loop 
+// let str="Archu deep rao";
 
-let size=0;
-for(let i of str){
-    console.log("i= ", i);
-    size++;
-}
-console.log("size= ", size);//14
+// let size=0;
+// for(let i of str){
+//     console.log("i= ", i);
+//     size++;
+// }
+// console.log("size= ", size);//14
   
+
+
+// for-in loop
+let student={
+    name:"archanarao",
+    age: 23,
+    cgpa: 8.4,
+    isPass: true,
+    marks: 740,
+};
+for(let key in student){
+    console.log("key=",key, "," , "value=",student[key]);
+}
