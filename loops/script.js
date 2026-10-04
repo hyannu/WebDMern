@@ -93,13 +93,25 @@
 
 
 // for-in loop
-let student={
-    name:"archanarao",
-    age: 23,
-    cgpa: 8.4,
-    isPass: true,
-    marks: 740,
-};
-for(let key in student){
-    console.log("key=",key, "," , "value=",student[key]);
+// let student={
+//     name:"archanarao",
+//     age: 23,
+//     cgpa: 8.4,
+//     isPass: true,
+//     marks: 740,
+// };
+// for(let key in student){
+//     console.log("key=",key, "," , "value=",student[key]);
+// }
+
+
+
+//practice question 2
+
+let gameNum=25;
+let userNum=prompt("guess the number : ");
+while(userNum!==gameNum){
+    userNum=prompt("you enter wrong number. guess again ");
+    
 }
+console.log("you have guessed the correct number");
