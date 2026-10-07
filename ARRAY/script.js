@@ -58,10 +58,38 @@
 
 // for loop used
 
-let items=[250, 645, 300, 900, 50];
-for(let idx=0; idx<items.length; idx++){
-    let offer=items[idx] / 10;
-    items[idx] = items[idx] - offer ;
+// let items=[250, 645, 300, 900, 50];
+// for(let idx=0; idx<items.length; idx++){
+//     let offer=items[idx] / 10;
+//     items[idx] = items[idx] - offer ;
    
-}
- console.log(items);
+// }
+//  console.log(items);
+
+
+
+// array methods used
+
+
+    // let foodItems = ["apple", "pineapple", "banana", "orange", "grapes"];
+//    console.log(foodItems);
+//    foodItems.push("mango");
+//    foodItems.unshift("kiwi");
+//    foodItems.pop();
+//    foodItems.shift();
+//    foodItems.splice(2, 1, "kiwi", "mango");
+//    console.log(foodItems.toString());
+//    console.log(foodItems.join(" | "));
+//    console.log(foodItems.length);
+//    console.log(foodItems.indexOf("banana"));
+//    console.log(foodItems.includes("mango"));
+//    console.log(foodItems.reverse());
+//    console.log(foodItems.sort());
+//    console.log(foodItems.slice(1, 4));
+//    console.log(foodItems.splice(2, 1, "kiwi", "mango"));
+//    console.log(foodItems);
+
+
+// foodItems.pop();
+
+// console.log(foodItems);
