@@ -71,25 +71,25 @@
 // array methods used
 
 
-    // let foodItems = ["apple", "pineapple", "banana", "orange", "grapes"];
-//    console.log(foodItems);
-//    foodItems.push("mango");
-//    foodItems.unshift("kiwi");
-//    foodItems.pop();
-//    foodItems.shift();
-//    foodItems.splice(2, 1, "kiwi", "mango");
-//    console.log(foodItems.toString());
-//    console.log(foodItems.join(" | "));
-//    console.log(foodItems.length);
-//    console.log(foodItems.indexOf("banana"));
-//    console.log(foodItems.includes("mango"));
-//    console.log(foodItems.reverse());
-//    console.log(foodItems.sort());
-//    console.log(foodItems.slice(1, 4));
-//    console.log(foodItems.splice(2, 1, "kiwi", "mango"));
-//    console.log(foodItems);
+    let foodItems = ["apple", "pineapple", "banana", "orange", "grapes"];
+   console.log(foodItems);
+   foodItems.push("mango");
+   foodItems.unshift("kiwi");
+   foodItems.pop();
+   foodItems.shift();
+   foodItems.splice(2, 1, "kiwi", "mango");
+   console.log(foodItems.toString());
+   console.log(foodItems.join(" | "));
+   console.log(foodItems.length);
+   console.log(foodItems.indexOf("banana"));
+   console.log(foodItems.includes("mango"));
+   console.log(foodItems.reverse());
+   console.log(foodItems.sort());
+   console.log(foodItems.slice(1, 4));
+   console.log(foodItems.splice(2, 1, "kiwi", "mango"));
+   console.log(foodItems);
 
 
-// foodItems.pop();
+foodItems.pop();
 
-// console.log(foodItems);
+console.log(foodItems);
