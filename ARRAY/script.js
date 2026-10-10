@@ -42,17 +42,17 @@
 
 
 
-QUESTION NUMBER (3.)
-for of used
-let items=[250, 645, 300, 900, 50];
-let idx = 0; 
-for(let val of items) { 
-    // console.log(`Value of index ${idx} = ${val}`);
-    let offer=val / 10;
-    items[idx] = items[idx] - offer ;
-    console.log(`value after offer = ${items[idx]}`);
-    idx++;
-}
+// QUESTION NUMBER (3.)
+// for of used
+// let items=[250, 645, 300, 900, 50];
+// let idx = 0; 
+// for(let val of items) { 
+//     // console.log(`Value of index ${idx} = ${val}`);
+//     let offer=val / 10;
+//     items[idx] = items[idx] - offer ;
+//     console.log(`value after offer = ${items[idx]}`);
+//     idx++;
+// }
 
 
 
@@ -69,25 +69,40 @@ for(let val of items) {
 
 
 // array methods used
+ 
 
-
-    let foodItems = ["apple", "pineapple", "banana", "orange", "grapes"];
-   console.log(foodItems);
-   foodItems.push("mango");
-   foodItems.unshift("kiwi");
-   foodItems.pop();
-   foodItems.shift();
-   foodItems.splice(2, 1, "kiwi", "mango");
-   console.log(foodItems.toString());
-   console.log(foodItems.join(" | "));
-   console.log(foodItems.length);
-   console.log(foodItems.indexOf("banana"));
-   console.log(foodItems.includes("mango"));
-   console.log(foodItems.reverse());
-   console.log(foodItems.sort());
-   console.log(foodItems.slice(1, 4));
-   console.log(foodItems.splice(2, 1, "kiwi", "mango"));
-   console.log(foodItems);
+console.log(foodItems);
+let foodItems = ["apple", "pineapple", "banana", "orange", "grapes"];
+foodItems.push("mango");
+let foodItems = ["apple", "pineapple", "banana", "orange", "grapes"];
+foodItems.unshift("kiwi");
+let foodItems = ["apple", "pineapple", "banana", "orange", "grapes"];
+foodItems.pop();
+let foodItems = ["apple", "pineapple", "banana", "orange", "grapes"];
+foodItems.shift();
+let foodItems = ["apple", "pineapple", "banana", "orange", "grapes"];
+foodItems.splice(2, 1, "kiwi", "mango");
+let foodItems = ["apple", "pineapple", "banana", "orange", "grapes"];
+console.log(foodItems.toString());
+let foodItems = ["apple", "pineapple", "banana", "orange", "grapes"];
+console.log(foodItems.join(" | "));
+let foodItems = ["apple", "pineapple", "banana", "orange", "grapes"];
+console.log(foodItems.length);
+let foodItems = ["apple", "pineapple", "banana", "orange", "grapes"];
+console.log(foodItems.indexOf("banana"));
+let foodItems = ["apple", "pineapple", "banana", "orange", "grapes"];
+console.log(foodItems.includes("mango"));
+let foodItems = ["apple", "pineapple", "banana", "orange", "grapes"];
+console.log(foodItems.reverse());
+let foodItems = ["apple", "pineapple", "banana", "orange", "grapes"];
+console.log(foodItems.sort());
+let foodItems = ["apple", "pineapple", "banana", "orange", "grapes"];
+console.log(foodItems.slice(1, 4));
+let foodItems = ["apple", "pineapple", "banana", "orange", "grapes"];
+console.log(foodItems.splice(2, 1, "kiwi", "mango"));
+let foodItems = ["apple", "pineapple", "banana", "orange", "grapes"];
+console.log(foodItems);
+let foodItems = ["apple", "pineapple", "banana", "orange", "grapes"];
 
 
 foodItems.pop();
