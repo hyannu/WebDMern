@@ -108,3 +108,12 @@
 // foodItems.pop();
 
 // console.log(foodItems);
+
+
+
+
+let arr = [1, 2, 3, 4];
+
+let result = arr.map((num) => num * 2);
+
+console.log(result);
