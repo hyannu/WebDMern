@@ -112,8 +112,11 @@
 
 
 
-let arr = [1, 2, 3, 4];
+// let arr = [1, 2, 3, 4];
 
-let result = arr.map((num) => num * 2);
+// let result = arr.map((num) => num * 2);
 
-console.log(result);
+// console.log(result);
+
+
+  
