@@ -119,4 +119,16 @@
 // console.log(result);
 
 
+
+
+// Array methods used
+let arr = [1, 2, 3, 4, 5, 6, 7];
+arr.push(8, 9);
+arr.unshift(0);
+arr.pop();
+arr.shift();    
+
+arr.splice(2, 2, 101, 102);
+
+// console.log(arr);
   
