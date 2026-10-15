@@ -28,3 +28,8 @@
 //     }
 //    console.log(count);  
 // }
+
+
+//MAP METHODES
+
+
