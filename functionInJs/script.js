@@ -48,7 +48,7 @@
 //     console.log(num * num);
 // };
 
-
+reduce
 
 
 
