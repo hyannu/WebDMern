@@ -48,7 +48,9 @@
 //     console.log(num * num);
 // };
 
-reduce
+// reduce methods
+
+practice
 
 
 
