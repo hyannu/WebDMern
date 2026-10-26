@@ -23,3 +23,4 @@
 // console.dir(window.document); // Logs the document object
 console.dir(document.body); // Logs the body element of the document
 console.log(document.body); // Logs the body element of the document
+ DOM Manipulation is a crucial aspect of web development, allowing developers to dynamically change the content, structure, and style of web pages. Here are some practice questions to help you improve your DOM manipulation skills:
