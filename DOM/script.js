@@ -6,3 +6,4 @@
 // 1. **Selecting Elements**:
 //    - Write a function that selects an element by its ID and changes its text content to "Hello, World!".
 //    - Select all elements with a specific class name and change their background color to blue.
+window object
