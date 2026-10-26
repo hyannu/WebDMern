@@ -22,3 +22,4 @@
 
 // console.dir(window.document); // Logs the document object
 console.dir(document.body); // Logs the body element of the document
+console.log(document.body); // Logs the body element of the document
