@@ -29,3 +29,7 @@
 //    questions to help you improve your DOM manipulation skills:
 
 // Selecting with ID
+
+document.getElementById("myElement").textContent = "Hello, World!";
+
+selecting with Class Name 
