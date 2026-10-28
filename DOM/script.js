@@ -39,4 +39,6 @@
 // document.body.style.backgroundColor = "lightgray"; // Change the background color of the body to light gray
 // console.dir(document.body.childNodes[1]);
 
-c
+// Updated background color to lightgray
+document.body.style.backgroundColor = "lightgray"; // Change the background color of the body to light gray
+document.body.childNodes[3].innerText = "hello archan rao"; // Change the text of the fourth child node of the body to "hello archan rao"
