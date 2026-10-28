@@ -30,6 +30,13 @@
 
 // Selecting with ID
 
-document.getElementById("myElement").textContent = "Hello, World!";
+// document.getElementById("myElement").textContent = "Hello, World!";
 
-selecting with Class Name 
+// // selecting with Class Name 
+// document.querySelectorAll(".myClass").forEach(function(element) {
+//     element.style.backgroundColor = "blue";
+// });
+// document.body.style.backgroundColor = "lightgray"; // Change the background color of the body to light gray
+// console.dir(document.body.childNodes[1]);
+
+c
