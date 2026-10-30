@@ -52,4 +52,5 @@ console.log(headings); // Logs the HTMLCollection of elements with the class "do
 console.log(headings); // Logs the HTMLCollection of elements with the class "dom-title"
 console.log(headings); // Logs the HTMLCollection of elements with the class "dom-title"
 console.log(headings);
-     Logs the HTMLCollection of elements with the class "dom-title"
+    //  Logs the HTMLCollection of elements with the class "dom-title"
+    document.body.style.backgroundColor = "lightgray"; // Change the background color of the body to light gray
