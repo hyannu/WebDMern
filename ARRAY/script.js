@@ -116,7 +116,7 @@
 
 // let result = arr.map((num) => num * 2);
 
-console.log(result);
+// console.log(result);
 
 
 
@@ -136,4 +136,7 @@ console.log(result);
 
 
 // FUNCTION && METHODS IN ARRAY 
+
+
+
 

@@ -44,16 +44,19 @@
 // document.body.childNodes[3].innerText ="hello arhan rao"; // Change the text of the fourth child node of the body to "hello archan rao"
 
 
-let headings = document.getElementsByClassName("dom-title");
-console.dir(headings);
-console.log(headings); // Logs the HTMLCollection of elements with the class "dom-title"
-console.log(headings); // Logs the HTMLCollection of elements with the class "dom-title"
-console.log(headings); // Logs the HTMLCollection of elements with the class "dom-title"
-console.log(headings); // Logs the HTMLCollection of elements with the class "dom-title"
-console.log(headings); // Logs the HTMLCollection of elements with the class "dom-title"
-console.log(headings);
-    //  Logs the HTMLCollection of elements with the class "dom-title"
-    // document.body.style.backgroundColor = "lightgray"; // Change the background color of the body to light gray
-    document.body.childNodes[3].innerText ="hello arhan rao"; 
-// Change the text of the fourth child node of the body to "hello archan rao" 
-document
+// let headings = document.getElementsByClassName("dom-title");
+// console.dir(headings);
+// console.log(headings); // Logs the HTMLCollection of elements with the class "dom-title"
+// console.log(headings); // Logs the HTMLCollection of elements with the class "dom-title"
+// console.log(headings); // Logs the HTMLCollection of elements with the class "dom-title"
+// console.log(headings); // Logs the HTMLCollection of elements with the class "dom-title"
+// console.log(headings); // Logs the HTMLCollection of elements with the class "dom-title"
+// console.log(headings);
+//     //  Logs the HTMLCollection of elements with the class "dom-title"
+//     // document.body.style.backgroundColor = "lightgray"; // Change the background color of the body to light gray
+//     document.body.childNodes[3].innerText ="hello arhan rao"; 
+// // Change the text of the fourth child node of the body to "hello archan rao" 
+// document
+
+// selecting with tag
+document.getElementsByTagName("p")
