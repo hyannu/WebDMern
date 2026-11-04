@@ -59,4 +59,6 @@
 // document
 
 // selecting with tag
-document.getElementsByTagName("p")
+// document.getElementsByTagName("p");
+// Query Selector and Query Selector All
+ 
