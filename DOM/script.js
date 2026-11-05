@@ -61,4 +61,13 @@
 // selecting with tag
 // document.getElementsByTagName("p");
 // Query Selector and Query Selector All
- 
+
+document.querySelector("myld / myClass / tag");
+// return first element
+document.querySelectorAll("myld / myClass / tag");
+//returnsa NodeList of all matching elements
+let firstElement = document.querySelector("myId");
+let allElements = document.querySelectorAll("myClass");
+document.querySelectorAll("p").forEach(function(element) {
+    element.style.color = "red"; // Change the text color of all <p> elements to red
+}
