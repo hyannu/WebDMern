@@ -70,4 +70,7 @@ let firstElement = document.querySelector("myId");
 let allElements = document.querySelectorAll("myClass");
 document.querySelectorAll("p").forEach(function(element) {
     element.style.color = "red"; // Change the text color of all <p> elements to red
+}); 
+document.querySelectorAll("p").forEach(function(element) {
+    element.style.fontSize = "20px"; // Change the font size of all <p> elements to 20px
 }
