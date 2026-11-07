@@ -74,3 +74,6 @@ document.querySelectorAll("p").forEach(function(element) {
 document.querySelectorAll("p").forEach(function(element) {
     element.style.fontSize = "20px"; // Change the font size of all <p> elements to 20px
 }
+document.querySelectorAll("p").forEach(function(element) {
+    element.style.fontWeight = "bold"; // Change the font weight of all <p> elements to bold
+}
