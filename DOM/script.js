@@ -77,3 +77,5 @@ document.querySelectorAll("p").forEach(function(element) {
 document.querySelectorAll("p").forEach(function(element) {
     element.style.fontWeight = "bold"; // Change the font weight of all <p> elements to bold
 }
+
+// tagName properties
