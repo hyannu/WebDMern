@@ -1,81 +1,83 @@
-// DOM Manipulation
-// practice questions
+// // DOM Manipulation
+// // practice questions
 
-// DOM Manipulation is a crucial aspect of web development, allowing developers to dynamically change the content, structure, and style of web pages. Here are some practice questions to help you improve your DOM manipulation skills:
+// // DOM Manipulation is a crucial aspect of web development, allowing developers to dynamically change the content, structure, and style of web pages. Here are some practice questions to help you improve your DOM manipulation skills:
 
-// 1. **Selecting Elements**:
-//    - Write a function that selects an element by its ID and changes its text content to "Hello, World!".
-//    - Select all elements with a specific class name and change their background color to blue.
-
-
-
-
-
- // window object is a global windows
-// console.log(window); // Logs the width of the window
-// console.log("Hello"); // Logs the height of the window   
-// window.console.log("Hello2"); // Logs the height of the window   
+// // 1. **Selecting Elements**:
+// //    - Write a function that selects an element by its ID and changes its text content to "Hello, World!".
+// //    - Select all elements with a specific class name and change their background color to blue.
 
 
 
 
 
-// console.dir(window.document); // Logs the document object
-// console.dir(document.body); // Logs the body element of the document
-// console.log(document.body); // Logs the body element of the document
-//  DOM Manipulation is a crucial aspect of web development,
-//   allowing developers to dynamically change the content, 
-//   structure, and style of web pages. Here are some practice
-//    questions to help you improve your DOM manipulation skills:
-
-// Selecting with ID
-
-// document.getElementById("myElement").textContent = "Hello, World!";
-
-// // selecting with Class Name 
-// document.querySelectorAll(".myClass").forEach(function(element) {
-//     element.style.backgroundColor = "blue";
-// });
-// document.body.style.backgroundColor = "lightgray"; // Change the background color of the body to light gray
-// console.dir(document.body.childNodes[1]);
-
-// Updated background color to lightgray
-// document.body.style.backgroundColor = "lightgray"; // Change the background color of the body to light gray
-// document.body.childNodes[3].innerText ="hello arhan rao"; // Change the text of the fourth child node of the body to "hello archan rao"
+//  // window object is a global windows
+// // console.log(window); // Logs the width of the window
+// // console.log("Hello"); // Logs the height of the window   
+// // window.console.log("Hello2"); // Logs the height of the window   
 
 
-// let headings = document.getElementsByClassName("dom-title");
-// console.dir(headings);
-// console.log(headings); // Logs the HTMLCollection of elements with the class "dom-title"
-// console.log(headings); // Logs the HTMLCollection of elements with the class "dom-title"
-// console.log(headings); // Logs the HTMLCollection of elements with the class "dom-title"
-// console.log(headings); // Logs the HTMLCollection of elements with the class "dom-title"
-// console.log(headings); // Logs the HTMLCollection of elements with the class "dom-title"
-// console.log(headings);
-//     //  Logs the HTMLCollection of elements with the class "dom-title"
-//     // document.body.style.backgroundColor = "lightgray"; // Change the background color of the body to light gray
-//     document.body.childNodes[3].innerText ="hello arhan rao"; 
-// // Change the text of the fourth child node of the body to "hello archan rao" 
-// document
 
-// selecting with tag
-// document.getElementsByTagName("p");
-// Query Selector and Query Selector All
 
-document.querySelector("myld / myClass / tag");
-// return first element
-document.querySelectorAll("myld / myClass / tag");
-//returnsa NodeList of all matching elements
-let firstElement = document.querySelector("myId");
-let allElements = document.querySelectorAll("myClass");
-document.querySelectorAll("p").forEach(function(element) {
-    element.style.color = "red"; // Change the text color of all <p> elements to red
-}); 
-document.querySelectorAll("p").forEach(function(element) {
-    element.style.fontSize = "20px"; // Change the font size of all <p> elements to 20px
-}
-document.querySelectorAll("p").forEach(function(element) {
-    element.style.fontWeight = "bold"; // Change the font weight of all <p> elements to bold
-}
 
-// tagName properties
+// // console.dir(window.document); // Logs the document object
+// // console.dir(document.body); // Logs the body element of the document
+// // console.log(document.body); // Logs the body element of the document
+// //  DOM Manipulation is a crucial aspect of web development,
+// //   allowing developers to dynamically change the content, 
+// //   structure, and style of web pages. Here are some practice
+// //    questions to help you improve your DOM manipulation skills:
+
+// // Selecting with ID
+
+// // document.getElementById("myElement").textContent = "Hello, World!";
+
+// // // selecting with Class Name 
+// // document.querySelectorAll(".myClass").forEach(function(element) {
+// //     element.style.backgroundColor = "blue";
+// // });
+// // document.body.style.backgroundColor = "lightgray"; // Change the background color of the body to light gray
+// // console.dir(document.body.childNodes[1]);
+
+// // Updated background color to lightgray
+// // document.body.style.backgroundColor = "lightgray"; // Change the background color of the body to light gray
+// // document.body.childNodes[3].innerText ="hello arhan rao"; // Change the text of the fourth child node of the body to "hello archan rao"
+
+
+// // let headings = document.getElementsByClassName("dom-title");
+// // console.dir(headings);
+// // console.log(headings); // Logs the HTMLCollection of elements with the class "dom-title"
+// // console.log(headings); // Logs the HTMLCollection of elements with the class "dom-title"
+// // console.log(headings); // Logs the HTMLCollection of elements with the class "dom-title"
+// // console.log(headings); // Logs the HTMLCollection of elements with the class "dom-title"
+// // console.log(headings); // Logs the HTMLCollection of elements with the class "dom-title"
+// // console.log(headings);
+// //     //  Logs the HTMLCollection of elements with the class "dom-title"
+// //     // document.body.style.backgroundColor = "lightgray"; // Change the background color of the body to light gray
+// //     document.body.childNodes[3].innerText ="hello arhan rao"; 
+// // // Change the text of the fourth child node of the body to "hello archan rao" 
+// // document
+
+// // selecting with tag
+// // document.getElementsByTagName("p");
+// // Query Selector and Query Selector All
+
+// document.querySelector("myld / myClass / tag");
+// // return first element
+// document.querySelectorAll("myld / myClass / tag");
+// //returnsa NodeList of all matching elements
+// let firstElement = document.querySelector("myId");
+// let allElements = document.querySelectorAll("myClass");
+// document.querySelectorAll("p").forEach(function(element) {
+//     element.style.color = "red"; // Change the text color of all <p> elements to red
+// }); 
+// document.querySelectorAll("p").forEach(function(element) {
+//     element.style.fontSize = "20px"; // Change the font size of all <p> elements to 20px
+// }
+// document.querySelectorAll("p").forEach(function(element) {
+//     element.style.fontWeight = "bold"; // Change the font weight of all <p> elements to bold
+// }
+
+// // tagName properties
+
+let  div = document.querySelector(h1)
