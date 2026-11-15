@@ -80,4 +80,8 @@
 
 // // tagName properties
 
-let  div = document.querySelector(h1)
+// let  h2 = document.querySelector("h2");
+
+let h2 = document.querySelector("h2");
+
+h2.innerHTML = "<i>Hello World</i>";
