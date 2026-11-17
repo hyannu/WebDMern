@@ -7,7 +7,7 @@ let para = document.querySelector("#para");
 
 btn.addEventListener("click", function() {
 
-    h1.innerText = "Hello Annu Rao!";
+    h1.innerText = "Hello Archana  Rao!";
 
     para.innerText = "Button successfully clicked!";
 
