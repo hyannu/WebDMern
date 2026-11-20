@@ -9,9 +9,9 @@ btn.addEventListener("click", function() {
 
     h1.innerText = "Hello Archana  Rao!";
 
-    para.innerText = "Button successfully clicked!";
+    para.innerText = "Successfully clicked!";
 
-    h1.style.color = "green";
+    h1.style.color = "red";
 
     document.body.style.backgroundColor = "lightyellow";
 
